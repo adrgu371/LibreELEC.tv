@@ -28,7 +28,7 @@ cd LibreELEC.tv
 
 
 
-*For RPi 1/ Zero/ Zero W*
+**For RPi 1/ Zero/ Zero W**
 
 
 
