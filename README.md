@@ -6,6 +6,24 @@ LibreELEC is a 'Just enough OS' Linux distribution for the award-winning [Kodi](
 
 Please ask questions in the [LibreELEC forum: Help & Support](https://forum.libreelec.tv/forum-3.html) or ask a member of project staff in the #libreelec IRC channel on Freenode. Please report bugs via [GitHub Issues](https://github.com/LibreELEC/LibreELEC.tv/issues).
 
+**Build instructions**
+For Ubuntu and derivates
+
+sudo apt update
+sudo apt upgrade
+sudo apt install gcc make git unzip wget xz-utils bc gperf zip unzip texinfo g++  xsltproc openjdk-11-jdk
+
+cd ~
+git clone https://github.com/adrgu371/LibreELEC.tv
+cd LibreELEC.tv
+
+For RPi 1/ Zero/ Zero W
+
+PROJECT=Generic ARCH=x86_64 tools/download-tool
+PROJECT=RPi DEVICE=RPi ARCH=arm tools/download-tool
+PROJECT=RPi DEVICE=RPi ARCH=arm make image
+
+
 **Donations**
 
 Contributions towards current project funding goals can be sent via PayPal to donations@libreelec.tv
