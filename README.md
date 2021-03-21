@@ -31,8 +31,6 @@ cd LibreELEC.tv
 For RPi 1/ Zero/ Zero W
 
 
-PROJECT=Generic ARCH=x86_64 tools/download-tool
-
 
 PROJECT=RPi DEVICE=RPi ARCH=arm tools/download-tool
 
