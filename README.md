@@ -10,17 +10,33 @@ Please ask questions in the [LibreELEC forum: Help & Support](https://forum.libr
 For Ubuntu and derivates
 
 sudo apt update
+
+
 sudo apt upgrade
+
+
 sudo apt install gcc make git unzip wget xz-utils bc gperf zip unzip texinfo g++  xsltproc openjdk-11-jdk
 
+
 cd ~
+
+
 git clone https://github.com/adrgu371/LibreELEC.tv
+
+
 cd LibreELEC.tv
+
+
 
 For RPi 1/ Zero/ Zero W
 
+
 PROJECT=Generic ARCH=x86_64 tools/download-tool
+
+
 PROJECT=RPi DEVICE=RPi ARCH=arm tools/download-tool
+
+
 PROJECT=RPi DEVICE=RPi ARCH=arm make image
 
 
